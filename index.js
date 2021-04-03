@@ -28,14 +28,14 @@ showOpenIcon()
 function openMenu(){
     openToggle.addEventListener('click', function(){
         menuToggle.style.right="0px";
-        menuToggle.style.opacity="1";
+       
     });
 };
 
 function closeMenu(){
     closeToggle.addEventListener('click', function(){
         menuToggle.style.right="-300px";
-        menuToggle.style.opacity="0";
+        
     });
 };
 openMenu();
