@@ -331,6 +331,9 @@ input, textarea, #services{
        margin:0.3rem auto 0;
        padding-top: 2rem;
     }
+    .links li a:hover{
+       border-bottom: 1px solid #ffba08;
+     }
     .links li a:hover::after{
         display: none;
     }
@@ -342,7 +345,7 @@ input, textarea, #services{
         font-size: 1.6rem;
         cursor: pointer;
         position: absolute;
-        right: 4rem;
+        right: 3rem;
         opacity: 1;
     }
     .nav-container  .fa-times{
